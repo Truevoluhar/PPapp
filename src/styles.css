@@ -1,0 +1,402 @@
+/* Fonts: 
+font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif;
+color pallete: https://coolors.co/dd7373-3b3561-ead94c-d1d1d1-51a3a3
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  width: 80vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.main-title {
+  color: #3b3561;
+  font-size: 3rem;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.main-title-1 {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #3b3561;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.logRegContainer {
+  display: flex;
+}
+
+.introFoto {
+  height: 30vh;
+}
+
+.regInput {
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  border: 3px solid #51a3a3;
+  border-radius: 5px;
+  background-color: #f0efef;
+}
+
+.regInputText {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  border: 3px solid #51a3a3;
+  border-radius: 5px;
+  background-color: #f0efef;
+}
+.regInputMoreText {
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: 3px solid #51a3a3;
+  border-radius: 5px;
+  background-color: #f0efef;
+}
+
+.regInput:focus {
+  outline: none !important;
+  border: 3px solid #3b3561;
+}
+
+.main-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutTitle {
+  font-size: 3rem;
+  text-align: center;
+  color: #3b7878;
+  width: 60vw;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.aboutSubTitle {
+  margin: 30px;
+  margin-top: 60px;
+  color: #5a5194;
+}
+
+.aboutText {
+  margin: 30px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+.back-button-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.naslov-pregled {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  color: #5a5194;
+}
+.naslov-pregled-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 160px;
+  font-size: 2rem;
+  margin: 25px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.searchBarContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 65px;
+}
+#searchbar {
+  width: 250px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.full-container {
+  display: flex;
+  width: 100vw;
+}
+.voteonmain-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background: #3b3561;
+}
+
+.voteonmain-title {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-top: 70px;
+}
+.voteonmain-text {
+  text-align: center;
+  margin: 30px;
+  max-width: 65%;
+  min-width: 60%;
+  font-size: 2rem;
+}
+.glas-grafika {
+  transition: all 1s ease-out;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-container {
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .text-container {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  .main-title-1 {
+    font-size: 2rem;
+    height: 60px;
+  }
+}
+
+/* BUTTON 5 */
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #3b3561;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  min-width: 320px;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #5a5194;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #5a5194;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* BUTTON 6*/
+
+.button-6 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #51a3a3;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  min-width: 150px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  background-color: #3b7878;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #3b7878;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.button-7 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #51a3a3;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px;
+  height: 2rem;
+  min-height: 2rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  min-width: 150px;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #3b7878;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-7:hover {
+  transform: translateY(-1px);
+}
+
+.button-7:active {
+  background-color: #3b7878;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+/* Pregled glasovanja */
+
+.pregledglasovanjabutton {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #5a5194;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 10px;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  min-width: 200px;
+}
+
+.pregledglasovanjabutton:hover,
+.pregledglasovanjabutton:focus {
+  background-color: #f0efef;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.pregledglasovanjabutton:hover {
+  transform: translateY(-1px);
+}
+
+.pregledglasovanjabutton:active {
+  background-color: #3b3561;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}

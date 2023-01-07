@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.mapdiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e6e6e6;
+  filter: drop-shadow(0 0 0.15rem black);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.main-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.main-header-button-container {
+  width: 75vw;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card-container {
+  width: 450px;
+  height: auto;
+  min-height: 450px;
+  border: 1.3px solid #e6e6e6;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color: #f0efef;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.card-container:hover {
+  border: 1.3px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: #fff;
+}
+
+.foto {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 5px;
+}
+
+.opis {
+  margin: 20px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.naslov {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.foto-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-single {
+  max-width: 430px;
+  max-height: 430px;
+  border-radius: 50px;
+}
+
+.main-header-photo {
+  width: 300px;
+}
+.main-header-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-header-button-container {
+    width: 95vw;
+  }
+}

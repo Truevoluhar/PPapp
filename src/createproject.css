@@ -1,0 +1,23 @@
+.ustvariprojektbuttoncontainer {
+  display: flex;
+  width: 100%;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+}
+
+.createproject-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.flexform {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

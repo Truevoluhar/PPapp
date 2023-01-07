@@ -1,0 +1,128 @@
+.bar-container {
+  width: 100vw;
+  min-height: 100px;
+  background-color: #d1e0e0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  filter: drop-shadow(0 0 0.15rem black);
+}
+
+.bar-border {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
+  min-width: 120px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid black;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
+  min-width: 120px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* PROJECT VOTING STYLE */
+
+.glasuj-maincont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.glasuj-container {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  background: #3b3561;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.15rem black);
+}
+
+.stevilo-glasov {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+  color: white;
+}
+
+.glasuj-button-container {
+  width: 20%;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h3 {
+  margin: 30px;
+}
+
+.h2 {
+  margin: 20px;
+  font-size: 4rem;
+}
+.button-glasuj {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  min-width: 150px;
+}
+
+.button-glasuj:hover,
+.button-glasuj:focus {
+  background-color: #700922;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-glasuj:hover {
+  transform: translateY(-1px);
+}
+
+.button-glasuj:active {
+  background-color: #700922;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
